@@ -29,6 +29,12 @@ body {
 }
 
 
+.logo {
+  width: 75px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
 .billboard {
   overflow: hidden;
   background-image: url(../img/billboard-pointer.jpg);
@@ -40,8 +46,9 @@ body {
 }
 
 .push-cta {
-    margin-top: 8rem;
+    margin-top: 6rem;
     margin-bottom: 2rem;
+    padding-left: 5rem;
 }
 
 .txt-shadow {
@@ -59,14 +66,14 @@ body {
     text-shadow: -1px -1px 0 rgba(0,0,0,0.1);
     font-weight:bold;
     color: #FFFFFF;
-    background-color: rgba(150,60,0,0.1);
+    background-color: rgba(190,130,50,0.1);
 }
 
 .download-button:hover{
     cursor: pointer;
-    border:3px solid #3C2828;
-    background-color: rgba(255,200,200,0.2);
-    color: #3C2828;
+    border:3px solid #4F4242;
+    background-color: rgba(255,200,150,0.1);
+    color: #4F4242;
 }
 
 .white-txt {
