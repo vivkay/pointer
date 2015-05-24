@@ -27,3 +27,48 @@ header {
 body {
     margin: 0;
 }
+
+
+.billboard {
+  overflow: hidden;
+  background-image: url(../img/billboard-pointer.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 5em;
+  width: 100%;
+}
+
+.push-cta {
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+.txt-shadow {
+  text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+}
+
+.download-button {
+    border:3px solid currentColor;
+    border-radius: 8px;
+    font-size: 22px;
+    font-family: "hind", sans-serif;
+    padding: 8px 14px 8px 14px;
+    text-decoration: none;
+    display:inline-block;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.1);
+    font-weight:bold;
+    color: #FFFFFF;
+    background-color: rgba(150,60,0,0.1);
+}
+
+.download-button:hover{
+    cursor: pointer;
+    border:3px solid #3C2828;
+    background-color: rgba(255,200,200,0.2);
+    color: #3C2828;
+}
+
+.white-txt {
+  color: white;
+}
