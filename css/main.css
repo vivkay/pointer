@@ -28,15 +28,68 @@ body {
     margin: 0;
 }
 
-
-.logo {
-  width: 75px;
-  padding-left: 1rem;
-  padding-top: 1rem;
-}
-
 .nav-bar {
   background-color: #dfe7f0;
+}
+
+.logo-btn {
+    height: 100px;
+    width: 20%;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: transparent url("../img/logo-brn.svg") no-repeat center center;
+    padding: 0;
+    margin: 20px;
+    border: 0;
+    z-index: 100;
+  }
+
+//*
+.logo-btn {
+  background: url("../img/logo-brn.svg" no-repeat center center);
+  height: 1.5rem;
+  width: 2.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  margin:20px;
+}
+*//
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #E1D6C3;
+}
+
+nav li {
+    background-color: #FAF6E2;
+    border-bottom: 1px solid #E1D6C3;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #282C4E;
+    width: 100%;
+    padding: 25px;
+}
+
+nav a:hover {
+    background-color: #E1D6C3;
+}
+
+.panel {
+    max-height: 0em;
+    overflow: hidden;
+    transition: all 250ms ease-out;
+}
+
+.js-panel-open {
+    display: block;
+    max-height: 20em;
 }
 
 .billboard {
@@ -83,3 +136,4 @@ body {
 .white-txt {
   color: white;
 }
+

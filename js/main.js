@@ -1,5 +1,7 @@
-var $logo = $('.logo');
+var $logoBtn = $('.logo-btn');
+var $panel = $('panel');
+var
 
-$logo.on('click, function ()' {
-
-}
+$logoBtn.on('click', function () {
+  $panel.toggleClass('js-panel-open');
+});
