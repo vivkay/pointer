@@ -137,3 +137,13 @@ nav a:hover {
   color: white;
 }
 
+.grey-txt {
+  color: grey;
+}
+
+.placeholder {
+  background-color: grey;
+  height: 150px;
+  width: 50px;
+  margin: 10px;
+}
