@@ -35,6 +35,10 @@ body {
   padding-top: 1rem;
 }
 
+.nav-bar {
+  background-color: #dfe7f0;
+}
+
 .billboard {
   overflow: hidden;
   background-image: url(../img/billboard-pointer.jpg);
