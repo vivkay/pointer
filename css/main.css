@@ -141,8 +141,21 @@ nav a:hover {
   color: grey;
 }
 
+.beige-txt {
+    color: #efe8d6;
+}
+
+a {
+    text-decoration: none;
+}
+
 .beige-ground {
     background-color: #efe8d6;
+    width: 100%;
+}
+
+.grey-ground {
+    background-color: grey;
     width: 100%;
 }
 
