@@ -32,20 +32,21 @@ body {
   background-color: #dfe7f0;
 }
 
-.logo-btn-brn {
+.logo-btn-off {
     height: 100px;
     width: 20%;
+    left: 10px;
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: transparent url("../img/logo-brn.svg") no-repeat center center;
+    background: transparent url("../img/logo-off.svg") no-repeat center center;
     padding: 0;
     margin: 20px;
     border: 0;
     z-index: 100;
 }
 
-.logo-btn-col {
+.logo-btn-on {
     height: 100px;
     width: 20%;
     overflow: hidden;
@@ -85,56 +86,15 @@ nav li {
 nav a {
     display: block;
     text-decoration: none;
-    color: #282C4E;
+    color: #9EAEBC;
     width: 100%;
-    padding: 25px;
+    padding: 25px 35px;
 }
 
-
-/* speech bubble css demo here: http://nicolasgallagher.com/pure-css-speech-bubbles/demo/default.css */
-
-.panel-wrapper {
-    position: relative;
-    width: 50%;
-    padding 30px;
-    left: 35px;
-    margin: 1em 0 3em;
-    border: 5px solid #C4D6E8;
-    color: #4F4242;
-    background: white;
-    -webkit-border-radius:10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+nav a:hover {
+    background-color: white;
 }
     
-.panel-wrapper:before {
-    content:"";
-    position: absolute;
-    top: -20px;
-    bottom: auto;
-    right: auto;
-    left: 40px;
-    border-width: 0 20px 20px;
-    border-style: solid;
-    border-color: #C4D6E8 transparent;
-    display: block;
-    width: 0;
-}
-
-.panel-wrapper:after {
-    content:"";
-    position: absolute;
-    top:-13px;
-    bottom: auto;
-    right: auto;
-    left: 47px;
-    border-width: 0px 13px 14px;
-    border-style: solid;
-    border-color: white transparent;
-    display: block;
-    width: 0;
-}
-
 
 /*
 
@@ -154,6 +114,54 @@ nav a:hover {
 }
 
 */
+
+
+/* speech bubble css demo here: http://nicolasgallagher.com/pure-css-speech-bubbles/demo/default.css */
+
+/*styles speech bubble container*/
+.panel-wrapper {
+    position: relative;
+    width: 50%;
+    padding 30px;
+    left: 35px;
+    margin: 1em 0 3em;
+    border: 5px solid #C4D6E8;
+    color: #4F4242;
+    background: white;
+    -webkit-border-radius:10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+    
+/*styles outer border of small triangle*/
+.panel-wrapper:before {
+    content:"";
+    position: absolute;
+    top: -20px;
+    bottom: auto;
+    right: auto;
+    left: 40px;
+    border-width: 0 20px 20px;
+    border-style: solid;
+    border-color: #C4D6E8 transparent;
+    display: block;
+    width: 0;
+}
+
+/* styles inner fill of small triangle */
+.panel-wrapper:after {
+    content:"";
+    position: absolute;
+    top:-13px;
+    bottom: auto;
+    right: auto;
+    left: 47px;
+    border-width: 0px 13px 14px;
+    border-style: solid;
+    border-color: #EDF4F9 transparent;
+    display: block;
+    width: 0;
+}
 
 .billboard {
   overflow: hidden;
@@ -268,7 +276,7 @@ a {
         overflow: hidden;
         text-indent: 100%;
         white-space: nowrap;
-        background: transparent url("../img/logo-brn-lrg.svg") no-repeat center center;
+        background: transparent url("../img/logo-off-lrg.svg") no-repeat center center;
         padding: 0;
         margin: 20px;
         border: 0;
