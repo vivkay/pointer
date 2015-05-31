@@ -59,7 +59,7 @@ body {
 }
 
 
-//*
+/*
 .logo-btn {
   background: url("../img/logo-brn.svg" no-repeat center center);
   height: 1.5rem;
@@ -68,18 +68,16 @@ body {
   white-space: nowrap;
   margin:20px;
 }
-*//
+*/
 
 nav ul {
-    position: relative;
-    padding: 15px;
+    padding: 0;
     margin: 0;
-    border-top: 1px solid #E1D6C3;
 }
 
 nav li {
-    background-color: #FAF6E2;
-    border-bottom: 1px solid #E1D6C3;
+    background-color: #EDF4F9;
+    border-bottom: 1px solid white;
     text-decoration: none;
     list-style: none;
 }
@@ -264,7 +262,7 @@ a {
 
 @media only screen and (min-width: 38em) {
   
-    .logo-btn-brn {
+    .logo-btn-off {
         height: 100px;
         width: 20%;
         overflow: hidden;
@@ -277,7 +275,7 @@ a {
         z-index: 100;
     }
 
-    .logo-btn-col {
+    .logo-btn-on {
         height: 100px;
         width: 20%;
         overflow: hidden;

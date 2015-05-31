@@ -1,5 +1,5 @@
-var $logoBtnBrn = $('.logo-btn-brn');
+var $logoBtnOff = $('.logo-btn-off');
 
-$logoBtnBrn.on('click', function () {
-    $logoBtnBrn.toggleClass('logo-btn-col');
+$logoBtnOff.on('click', function () {
+    $logoBtnOff.toggleClass('logo-btn-on');
 });
