@@ -94,26 +94,15 @@ nav a {
 nav a:hover {
     background-color: white;
 }
-    
 
 /*
-
-nav a:hover {
-    background-color: #E1D6C3;
-}
-
-.nav-panel {
+.panel-wrapper {
     max-height: 0em;
     overflow: hidden;
     transition: all 250ms ease-out;
 }
-
-.js-nav-panel-open {
-    display: block;
-    max-height: 20em;
-}
-
 */
+
 
 
 /* speech bubble css demo here: http://nicolasgallagher.com/pure-css-speech-bubbles/demo/default.css */
@@ -131,6 +120,11 @@ nav a:hover {
     -webkit-border-radius:10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+    display: none;
+}
+
+.js-panel-wrapper-open {
+    display: block;
 }
     
 /*styles outer border of small triangle*/
