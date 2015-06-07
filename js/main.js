@@ -15,3 +15,4 @@ $phone1.waypoint(function (direction) {
         $phone1.removeClass('js-left-in');
     }
 }, { offset:'50%'});
+
