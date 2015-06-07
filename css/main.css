@@ -278,7 +278,6 @@ a {
     animation: left-in 1.25s linear forwards;
 }
 
-
 .slider-wrapper {
     position: relative;
     overflow: hidden;
@@ -299,6 +298,12 @@ a {
 
 .slider-img {
     width: 33.33333333333%;
+}
+
+
+
+.phone-size {
+    width: 100%;
 }
 
 
