@@ -300,7 +300,10 @@ a {
     width: 33.33333333333%;
 }
 
-
+.social-media {
+    width: 100%;
+    display: block;
+}
 
 .phone-size {
     width: 100%;
