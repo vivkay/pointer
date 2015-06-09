@@ -1,6 +1,7 @@
 var $logoBtnOff = $('.logo-btn-off');
 var $panelWrapper =('.panel-wrapper');
 var $phone1 = $('.phone1');
+var $socialIcon = $('.social-icon');
 
 
 $logoBtnOff.on('click', function () {
@@ -16,3 +17,13 @@ $phone1.waypoint(function (direction) {
     }
 }, { offset:'50%'});
 
+$socialIcon.waypoint(function (direction) {
+    console.log();
+    
+    //if (direction == 'down') {
+    //    $socialIcon.addClass('js-bounce-up');
+   // } else {
+    //    $socialIcon.removeClass('js-bounce-up');
+    //}
+    
+});

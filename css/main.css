@@ -278,33 +278,6 @@ a {
     animation: left-in 1.25s linear forwards;
 }
 
-.slider-wrapper {
-    position: relative;
-    overflow: hidden;
-        overflow-x: hidden;
-        overflow-y: hidden;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.slider {
-    width: 300%;
-    transition: transform 500ms ease;
-    -webkit-transition: transform 500ms ease;
-    transform: translate3d(-33.33333333333%, 0px, 0px);
-}
-
-.slider-img {
-    width: 33.33333333333%;
-}
-
-.social-media {
-    width: 100%;
-    display: block;
-}
-
 .phone-size {
     width: 100%;
 }
@@ -328,6 +301,70 @@ a {
         -webkit-transform: translateX(50px);
     }
 }
+
+
+
+/*
+.slider-wrapper {
+    position: relative;
+    overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.slider {
+    width: 300%;
+    transition: transform 500ms ease;
+    -webkit-transition: transform 500ms ease;
+    transform: translate3d(-33.33333333333%, 0px, 0px);
+}
+
+.slider-img {
+    width: 33.33333333333%;
+}
+
+*/
+
+.social-container {
+    text-align: center;
+    width: 100%;
+}
+
+.social-icon {
+    padding: 35px 55px;
+}
+
+.js-bounce-up {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    -webkit-animation: bounce-up 1.25s linear forwards;
+    animation: bounce-up 1.25s linear forwards;
+}
+
+@webkit-keyframes bounce-up {
+    
+    0% {
+        -webkit-transform: translateY(-1000px);   
+        }
+    
+    50% {
+        -webkit-transform: translateY(100px);
+    }
+    
+    80% {
+        -webkit-transform: translateY(60px);
+    }
+    
+    100% {
+        -webkit-transform: translateY(80px);
+    }
+            
+    }
+
 
 @media only screen and (min-width: 25em) {
   
